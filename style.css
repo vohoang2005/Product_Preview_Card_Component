@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    background-color: hsl(30, 38%, 92%);
+}
+
+button, li {
+    font-family: inherit;
+}
+
+h1, .price {
+    font-family: "Fraunces", sans-serif;
+}
+
+.attribution { 
+    font-size: 14px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.btn {
+    background-color: green;
+}
