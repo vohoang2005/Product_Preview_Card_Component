@@ -55,7 +55,7 @@ p {
 }
 
 .container {
-    max-width: 500px;
+    max-width: 700px;
 }
 
 .container h1 {
@@ -93,6 +93,30 @@ p {
     color: hsl(228, 12%, 48%)
 }
 
+.container .btn {
+    background-color: hsl(158, 36%, 37%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .btn:hover {
+    background-color: hsl(157, 49%, 18%);
+}
+.container .btn img {
+    margin-right: 0.5rem;
+}
+
 .attribution { 
     font-size: 14px; 
     text-align: center; 
@@ -107,6 +131,28 @@ p {
     color: hsl(0, 0%, 100%)
 }
 
-.btn:hover {
-    background-color: hsl(228, 12%, 48%);
+@media (min-width: 640px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container article:first-child img {
+        border-radius: 0.625rem 0 0 0.625rem;
+        width: 100%
+    }
+
+    .container article:last-child {
+        border-radius: 0 0.625rem 0.625rem 0;
+        margin-top: 0;
+        padding: 1.5rem 1.5rem 0;
+    }
+
+    picture img {
+        height: 100%;
+    }
+
+    .container p {
+        margin-bottom: 1rem;
+    }
 }
