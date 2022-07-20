@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/vohoang2005/Product_Preview_Card_Component)
-- Live Site URL: [Add live site URL here](https://vohoang2005.github.io/Product_Preview_Card_Component/)
+- Solution URL: [https://github.com/vohoang2005/Product_Preview_Card_Component]
+- Live Site URL: [https://vohoang2005.github.io/Product_Preview_Card_Component/]
 
 ## My process
 
@@ -56,5 +56,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://vohoang2005.github.io/Product_Preview_Card_Component/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/vohoang2005)
+- Website - [https://vohoang2005.github.io/Product_Preview_Card_Component/]
+- Frontend Mentor - [https://www.frontendmentor.io/profile/vohoang2005]
+- Created by - Chuong Vo
